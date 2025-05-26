@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+/* Tùy chỉnh thanh cuộn chung */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    /* cần có để hiện thanh cuộn ngang */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #facc15;
+    /* Tailwind yellow-400 */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
